@@ -3,8 +3,8 @@ Description=Weather app that displays current forcast
 
 [Service]
 Type=simple
-ExecStart=/home/vagrant/shared/week11/wttr
-WorkingDirectory=/home/vagrant/shared/week11
+ExecStart=/home/vagrant/shared/week10/wttr
+WorkingDirectory=/home/vagrant/shared/week10
 Restart=on.failure
 
 [Install]
